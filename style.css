@@ -86,12 +86,13 @@ header{
         height: 40px;
         background-color: var(--off-white);
         display: block;
+        border: 3px var(--blue-black) solid;
         margin: 0 auto;
         position: absolute;
         font-weight: bold;
         top: 200px;
         left: calc(50% - 90px);
-        border-radius: 5px;
+        border-radius: 10px;
         box-shadow: 1px 1px 2px rgba(89, 73, 30, 0.36);
         display: flex;
         justify-content: center;
@@ -110,6 +111,7 @@ header{
 main{
     width: 100%;
     height: auto;
+    background: linear-gradient(12deg, rgba(50,109,113,1) 6%, rgba(64,151,158,1) 14%, rgba(141,217,223,1) 10%);;
 }
 .main-section-change{
     width: 100%;
@@ -343,6 +345,7 @@ min-width: 288px;
         width: 20px;
         height: 20px;
         background-image: url("../assests/icons/dollar-sign-1.svg");
+        color: #e5e5e5;
         background-size: cover;
         background-repeat: no-repeat;
         margin-bottom: 5px;
@@ -358,22 +361,27 @@ min-width: 288px;
     }
     & p{
         margin-top: 5px;
-        color: var(--grey);
+        color: var(--off-white);
     }   
 }
 .main-bitcoin-layer-section{
     width: 100%;
     min-width: 320px;
+    max-width: 400px;
+    margin: 0 auto;
     height: 80vh;
     background-image: url("./assests/img/bitcois-woman.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     text-align: center;
-    color: var(--just-white);
+    color: var(--blue-black);
     & h2{
-    padding-top: 50px;
+    font-size: 1.875rem;
+    padding-top: 180px;
     line-height: 2.6;
+    font-weight: bold;
+    
 }
 }
 
@@ -406,9 +414,8 @@ min-width: 288px;
 .main-section-plan-card-container{
     display: flex;
    height: 350px;
-   overflow-x: scroll;
-   overscroll-behavior-x: contain;
-   scroll-snap-type: x proximity;
+   
+   
    gap: 20px;
 }
 
@@ -534,7 +541,7 @@ min-width: 288px;
         font-weight: bold;
         font-weight: 600;
         line-height: 2;
-        border: solid 2px var(--);
+        border: solid 2px var(--blue-bitcoin);
         border-radius: 5px;
         position: relative;
         top: 24px;
@@ -549,7 +556,7 @@ min-width: 288px;
     font-size: 1rem;
 }
 & .card-promo{
-    color: #757575;
+    color: var(--blue-black);
     line-height: 1.2;
     margin-bottom: 10px;
 }
@@ -569,13 +576,13 @@ min-width: 288px;
 
 .main-product-detail-card:hover{
     transform: scale(1.1); 
-    background-color: #757575;
+    background-color: var(--blue-acqua);
 }
 
 .header-button:hover{
     transform: scale(1.1); 
-    & .icon-row-down{transform: rotate(180deg);}
-    background-color: var(--soft-orange);
+    /* .icon-row-down{transform: rotate(180deg);}*/
+    background-color: var(--soft-blue);
     
 }
 

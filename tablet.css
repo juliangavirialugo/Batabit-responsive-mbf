@@ -11,10 +11,16 @@
     gap: 100px;
 }
 .header-title-container a{
-    width: 500px;
+    width: 300px;
     margin: 0 auto;
     position:relative;
     top: 60px;
     left: 10px;
     justify-content: space-around;
+ 
+}
+
+main{
+   
+    background-color: #8dd9df;
 }
