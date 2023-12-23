@@ -111,7 +111,7 @@ header{
 main{
     width: 100%;
     height: auto;
-    background: linear-gradient(12deg, rgba(50,109,113,1) 6%, rgba(64,151,158,1) 14%, rgba(141,217,223,1) 10%);;
+    background: linear-gradient(12deg, rgba(50,109,113,1) 6%, rgba(64,151,158,1) 14%, rgba(141,217,223,1) 10%);
 }
 .main-section-change{
     width: 100%;
@@ -368,8 +368,9 @@ min-width: 288px;
     width: 100%;
     min-width: 320px;
     max-width: 400px;
-    
+    max-height: 90vh;
     height: 80vh;
+    margin: 0 auto;
     background-image: url("./assests/img/bitcois-woman.jpg");
     background-size: cover;
     background-repeat: repeat;
@@ -417,6 +418,7 @@ min-width: 288px;
    overflow: scroll;
     overscroll-behavior-x: center;
    gap: 20px;
+   scroll-snap-type: x proximity;
 }
 
 
