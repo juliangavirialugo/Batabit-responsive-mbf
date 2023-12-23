@@ -1,0 +1,20 @@
+.main-product-detail-cards{
+    width: 100%;
+}
+.main-product-detail-card{
+    max-width: 600px;
+    flex-wrap: wrap;
+}
+
+.main-change-table-container{
+    flex-direction: row;
+    gap: 100px;
+}
+.header-title-container a{
+    width: 500px;
+    margin: 0 auto;
+    position:relative;
+    top: 60px;
+    left: 10px;
+    justify-content: space-around;
+}
